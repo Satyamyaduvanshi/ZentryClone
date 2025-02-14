@@ -5,7 +5,7 @@ import gsap from "gsap"
 interface titleProps{
     title: string,
     containerClass: string
-    sectionId:string
+    sectionId?:string
 }
 
 const AnimatedTitle = ({title,containerClass,sectionId}:titleProps)=>{
