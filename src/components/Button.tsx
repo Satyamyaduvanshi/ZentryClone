@@ -2,7 +2,7 @@ import { ReactElement } from "react"
 
 
 interface buttonProps{
-    id: string,
+    id?: string,
     title: string,
     leftIcon?: ReactElement,
     containerClass: string,

@@ -5,9 +5,10 @@ import gsap from "gsap"
 interface titleProps{
     title: string,
     containerClass: string
+    sectionId:string
 }
 
-const AnimatedTitle = ({title,containerClass}:titleProps)=>{
+const AnimatedTitle = ({title,containerClass,sectionId}:titleProps)=>{
     const containerRef = useRef(null)
 
     useEffect(()=>{
@@ -38,6 +39,7 @@ const AnimatedTitle = ({title,containerClass}:titleProps)=>{
 
     return(
         <div 
+        id={sectionId}
         ref={containerRef}
         className= {`animated-title ${containerClass} `}>
             {title.split('<br/>').map((line,index)=>(
