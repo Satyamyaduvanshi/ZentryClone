@@ -9,8 +9,8 @@ Follow these steps to get the project running on your local machine:
 ### 1. Clone the Repository
 
 ```sh
-git clone https://github.com/your-username/zentry-inspired-project.git
-cd zentry-inspired-project
+ git clone https://github.com/Satyamyaduvanshi/ZentryClone.git
+cd ZentryClone
 ```
 
 ### 2. Install Dependencies
